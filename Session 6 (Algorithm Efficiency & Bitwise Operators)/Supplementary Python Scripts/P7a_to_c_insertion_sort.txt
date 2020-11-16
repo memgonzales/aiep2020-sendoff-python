@@ -1,0 +1,7 @@
+# Solution to Session 6 Problem 7a to c
+# 2020 AIEP Send-off
+# @author Mark Edward M. Gonzales
+# @date   September 12, 2020
+
+a. arranging cards (e.g., during a poker match)
+c. O(n^2)
