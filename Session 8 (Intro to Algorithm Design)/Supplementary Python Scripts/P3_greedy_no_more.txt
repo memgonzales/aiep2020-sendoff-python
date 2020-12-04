@@ -1,0 +1,22 @@
+# Solution to Session 8 Problem 3
+# 2020 AIEP Send-off
+# @author Mark Edward M. Gonzales
+# @date   November 2, 2020
+
+3. No, greedy algorithm cannot be used to solve the 0-1 knapsack problem.
+   Consider this counterexample from J.E. Walter (n.d.):
+       Item       a    b    c    d    e
+       Values     3    5    8    4    10
+       Weights    2    4    5    3    9
+   Maximum Weight: 20
+
+   Value-to-Weight Ratios:
+       1.5    1.25    1.6    1.33    1.11
+
+   Incorrect (greedy algorithm): 20
+       achieved by taking c, a, d, and b
+   Correct: 26
+       achieved by taking c, a, b, and e
+   
+   Unlike the fractional knapsack problem, dynamic programming (not greedy algorithm)
+   must be employed to solve the 0-1 knapsack problem.   
